@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="calandar.FT_CALANDAR_01_Test" />
+			<class name="search.FT_SEARCH_BAR_01_Test" />
+			<class name="search.FT_SEARCH_BAR_02_Test" />
+			<class name="home.FT_CHANGE_TIME_01_Test" />
+			<class name="home.FT_OPEN_CALCULATOR_01_Test" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+ 

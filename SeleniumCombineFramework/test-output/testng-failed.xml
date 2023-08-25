@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="leads.ST_LEADS_01_Test">
+        <methods>
+          <include name="Logging_to_the_application_enter_leads_details_with_valid_input_and_massedit_website_of_leads_details_then_logout"/>
+          <include name="closingTheBrowser"/>
+          <include name="navigatingtoApplication"/>
+          <include name="launchingBrowser"/>
+          <include name="signOutFromApplication"/>
+        </methods>
+      </class> <!-- leads.ST_LEADS_01_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

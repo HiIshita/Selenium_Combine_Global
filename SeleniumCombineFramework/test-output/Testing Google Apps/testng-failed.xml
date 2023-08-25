@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing Google Apps]">
+  <parameter name="sheet" value="Sheet2"/>
+  <test name="Regression(failed)">
+    <parameter name="sheet" value="Sheet2"/>
+    <classes>
+      <class name="leads.IT_LEADS_01">
+        <methods>
+          <include name="closingTheBrowser"/>
+          <include name="Creating_a_lead_with_valid_details_and_able_to_see_the_added_details_in_leads_page"/>
+          <include name="launchingBrowser"/>
+        </methods>
+      </class> <!-- leads.IT_LEADS_01 -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Testing Google Apps] -->
