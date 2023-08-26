@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Practice Suite]">
+  <parameter name="Browser" value="edge"/>
+  <test name="Test Basics 1(failed)" parallel="true">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="testngExecutions.TC_12">
+        <methods>
+          <include name="Launchingmyntra" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testngExecutions.TC_12 -->
+    </classes>
+  </test> <!-- Test Basics 1(failed) -->
+  <test name="Test Basics 2(failed)" parallel="true">
+    <parameter name="Browser" value="edge"/>
+    <classes>
+      <class name="testngExecutions.TC_12">
+        <methods>
+          <include name="Launchingmyntra" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testngExecutions.TC_12 -->
+    </classes>
+  </test> <!-- Test Basics 2(failed) -->
+</suite> <!-- Failed suite [Practice Suite] -->

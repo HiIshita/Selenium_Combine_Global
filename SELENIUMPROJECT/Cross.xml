@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+	<test name="Test Basics 1" parallel="true">
+	<parameter name="Browser" value="chrome"></parameter>
+		<classes>
+			<class name="testngExecutions.TC_12"></class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test Basics 2" parallel="true">
+	<parameter name="Browser" value="edge"></parameter>
+		<classes>
+			<class name="testngExecutions.TC_12"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

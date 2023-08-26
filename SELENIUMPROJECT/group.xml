@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parallel="true">
+  <groups>
+		<run>
+		<include name="FD"></include>	
+		</run>  
+	  </groups>
+    <classes>
+  	 <class name="testngExecutions.TC_8"/>
+      <class name="testngExecutions.TC_9"/>
+      <class name="testngExecutions.TC_2"/>
+      <class name="testngExecutions.TC_6"/>
+      <class name="testngExecutions.TC_3"/>
+      <class name="testngExecutions.TC_7"/>
+      <class name="testngExecutions.TC_01"/>
+      <class name="testngExecutions.TC_10"/>
+      <class name="testngExecutions.TC_4"/>
+	<class name="testngExecutions.TC_5"/>
+
+    </classes>
+
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
+
+
+
